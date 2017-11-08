@@ -3,6 +3,8 @@ body {
   background-image: url("batch198.jpg");
   text-align: center;
   background: rgba(255, 255, 255, 0,1);
+  margin: 0;
+  padding: 0;
 }
 
 .all {
@@ -88,6 +90,41 @@ h1 {
   background-color: white;
   color: red;
   border: solid 1px red;
+}
+
+.menu {
+  background-color: #3A4047;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+/*  margin-top: -40px;
+  margin-left: -10px;
+*/
+  }
+
+.menu ul {
+  list-style-type: none;
+  padding-left: 0;
+
+
+}
+
+.menu > ul > li {
+  padding-bottom: 40%;
+  padding-top: 40%;
+  padding-right: 30%;
+  text-align: center;
+
+}
+
+.menu > ul > li > a {
+  text-decoration: none;
+  color: #7D7D7D;
+}
+
+.menu > ul > li > a:hover {
+  color: white;
 }
 
 @media (max-width: 960px) {
